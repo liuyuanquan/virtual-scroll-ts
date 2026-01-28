@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#table-container {
+	border: none;
+	overflow: hidden;
+	position: relative;
+	cursor: default;
+	width: 800px;
+	height: 400px;
+	margin: 20px auto;
+	border: 1px solid #00f;
+}
+
+/* Konva canvas style */
+#table-container canvas {
+	display: block;
+}
